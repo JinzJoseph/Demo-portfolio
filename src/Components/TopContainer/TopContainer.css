@@ -1,0 +1,7 @@
+.topcontainer{
+    background: url("../../Assets/H9.png");height:120vh ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: insert 0 0 0 2000px rgba(0,0,0,0.5);
+}

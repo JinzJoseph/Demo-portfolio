@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,100&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&family=Work+Sans:ital,wght@0,300;1,400&display=swap');
+.projectcontainer{
+    display: flex;
+    flex-direction:column ;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+}
+.projectcontainer > h1{
+padding-bottom: 15px;
+
+}
+.projectcontainer > p {
+    padding-bottom: 20px;
+}
+.projectcontainer__projects{
+    display: flex;
+    width: 60vw;
+    margin-top: 50px;
+flex-wrap: wrap;
+}

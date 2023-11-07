@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,100&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&family=Work+Sans:ital,wght@0,300;1,400&display=swap');
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+
+}
+
+.skillcontainer__text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.skillcontainer__text >h2{
+font-size: 30px;
+}
+.skillcontainer__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainer__image > img{
+    width: 600px;
+    border-radius: 2px;
+    object-fit: contain;
+}
+.skillcontainr__slider > h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+.skillcontainer-skillset > .css-eglki6-MuiLinearProgress-root {
+    background-color: rgb(185, 24, 24) !important;
+
+}
+.skillcontainer__slider1 >  div > .MuiLinearProgress-bar{
+
+    background-color: rgb(24, 185, 107) !important;
+} 

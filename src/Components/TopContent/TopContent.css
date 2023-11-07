@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,100&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&family=Work+Sans:ital,wght@0,300;1,400&display=swap');
+.topcontent{
+    color: #f64c08;
+    position: relative;
+
+
+}
+.topcontent__container{
+    position: absolute;
+    top: 300px;
+    right: 80px;
+
+}
+.topcontent__container >p{
+    letter-spacing: 1px;
+    text-align: left;
+   padding-left: 3px;
+   padding-right: 20px;
+
+
+}
+.topcontent__container > a > button{
+    margin-top: 30px;
+    text-align: align;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    
+}
+.topcontent__container > h1{
+    font-size:50px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topcontent__downloadbutton{
+    color: white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: Georgia, 'Times New Roman';
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+
+
+}
+.topcontent__workbutton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding:9px 45px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: 300;
+    cursor: pointer;
+
+
+}
+.topcontent__downloadbutton:hover{
+    color: #f64c08;
+    background-color: white;
+    font-weight: 500;
+
+}
+.topcontent__workbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
